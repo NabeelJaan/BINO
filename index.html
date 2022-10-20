@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bino</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!--styleSheet-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
+
+	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+
+	<script>
+        jQuery(document).ready(function($) {
+            $('.count').counterUp({
+                time: 2000
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+	<header class="menu">
+		<div class="container">
+				<nav class="navbar navbar-expand-lg" style="width: 100%">
+					<!--logo-->
+					<div>
+						<a class="siteLogo navbar-brand" href="#">
+							<img src="images/logo.png">
+						</a>
+					</div>
+					<div>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+						<i class="fas fa-bars fa-1x"></i>
+						</button>
+					</div>
+						<!--menu links-->
+						<div class="navigation collapse navbar-collapse" id="collapsenavbar">
+							<ul class="navbar-nav">
+								<li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+								<li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+								<li class="nav-item"><a class="nav-link" href="#">PORTFOLIO</a></li>
+								<li class="nav-item"><a class="nav-link" href="#">PRICING</a></li>
+								<li class="nav-item"><a class="nav-link" href="#">TEAM</a></li>
+								<li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+								<li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+							</ul>
+						</div>
+				</nav>
+			</div>
+	</header>
+
+	<section class="slider">
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner text-center">
+				<div class="carousel-item active" style="background-image: url('images/slider1.png');">
+					<div class="table">
+						<div class="table-cell">
+							<div class="caption">
+								<h6>Our Clients our First Priority</h6>
+								<h1>WELCOME TO BINO</h1>
+								<span class="line"></span>
+								<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</P>
+								<a class="btn btn_slider1" href="#">GET STARTED NOW</a>
+								<a class="btn btn_slider2" href="#">LEARN MORE</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url('images/slider1.png');">
+					<div class="table">
+						<div class="table-cell">
+							<div class="caption">
+								<h6>Our Clients our First Priority</h6>
+								<h1>WELCOME TO BINO</h1>
+								<span class="line"></span>
+								<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</P>
+								<a class="btn btn_slider1" href="#">GET STARTED NOW</a>
+								<a class="btn btn_slider2" href="#">LEARN MORE</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel_icon"><i class="fal fa-angle-left"></i></span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel_icon"><i class="fal fa-angle-right"></i></span>
+			</a>
+		</div>
+	</section><!--/Slider-->
+
+	<!--down Icon-->
+	<section class="slider_icon">
+		<a href="#services"><span class="down_icon"><img src="images/downIcon.png"></span></a>
+	</section>
+	<!--/Down Icon-->
+	<section id="services" class="services">
+		<div class="container">
+			<div class="servicesSec">
+				<div class="row no-gutters">
+					<div class="col-lg-3 col-md-6 col-sm-3 text-center">
+						<div class="servicesSec1">
+							<span  class="icon"><img src="images/s1.png"></span>
+							<h3>SLEEK DESIGN</h3>
+							<hr>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-3 text-center">
+						<div class="servicesSec1">
+							<span  class="icon"><img src="images/s2.png"></span>
+							<h3>CLEAN CODE</h3>
+							<hr>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-sm-3 text-center">
+						<div class="servicesSec1">
+							<span id="icon_rotation" class="icon"><img src="images/s3.png"></span>
+							<h3>CREATIVE IDEAS</h3>
+							<hr>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-sm-3 text-center">
+						<div class="servicesSec1">
+							<span  class="icon"><img src="images/s4.png"></span>
+							<h3>FREE SUPPORT</h3>
+							<hr>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--Services-->
+	<hr>
+	<section class="about">
+		<div class="container">
+			<div class="about_sec">
+				<div class="row no-gutters">
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<div class="img">
+							<img src="images/imac.png">
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 col-sm-12 ">
+						<div class="Sec_content">
+							<div class="ourStory">
+								<h2>OUR STORY</h2>
+							</div>
+							<P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip sum has been the industry's standard dummy text ever since the 1500s, when an unk- nown printer took a galley of type and scrambled it to make a type specimen book.<br>
+							It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</P>
+							<a class="btn btn1" href="#">BROWSE OUR WORK</a>
+						</div>
+					</div>
+			</div>
+			</div>
+		</div>
+	</section><!--/About us-->
+
+	<!--Isotops-->
+	<section class="Recent_work">
+		<div class="recent">
+			<div class="text-center">
+				<h2>RECENT WORKS</h2>
+				<p>It has survived not only five centuries, but also the leap scrambled it to make a type.</p>
+				<span class="line for_spacing"></span>
+			</div>
+			<div class="text-center for_span">
+				<div id="filter-menu" class="filters-button-group">
+					<button id="btn1" value="*">ALL</button>
+					<span class="buttonss">/</span>
+					<button id="btn1" value=".print">PRINT DESIGN</button>
+					<span class="buttonss">/</span>
+					<button id="btn2" value=".animation">ANIMATION</button>
+					<span class="buttonss">/</span>
+					<button id="btn3" value=".art">ART</button>
+					<span class="buttonss">/</span>
+					<button id="btn3" value=".web">WEB DESIGN</button>
+					<span class="buttonss">/</span>
+					<button id="btn3" value=".photography">PHOTOGRAPY</button>
+					<span class="buttonss">/</span>
+					<button id="btn3" value=".video">VIDEO</button>
+				</div>
+			</div>
+
+			<div id="grid">
+				<div class="item overly grid-sizer web video art">
+					<div class="overlay">
+						<img src="images/img1.png">
+						<div class="image-content">
+							<h4>T-SHIRT DESIGN</h4>
+							<h5>art/t-shirt</h5>
+						</div>
+					</div>
+				</div>
+				<div class="item overly grid-sizer animation photography art print">
+					<div class="overlay">
+						<img src="images/img2.png">
+						<div class="image-content">
+							<h4>T-SHIRT DESIGN</h4>
+							<h5>art/t-shirt</h5>
+						</div>
+					</div>
+				</div>
+				<div class="item overly grid-sizer animation">
+					<div class="overlay">
+						<img src="images/img3.png">
+						<div class="image-content">
+							<h4>T-SHIRT DESIGN</h4>
+							<h5>art/t-shirt</h5>
+						</div>
+					</div>
+				</div>
+				<div class="item grid-sizer">
+					<div class="overlay">
+						<img src="images/img4.png">
+						<div class="image-content">
+							<h4>T-SHIRT DESIGN</h4>
+							<h5>art/t-shirt</h5>
+						</div>
+					</div>
+				</div>
+				<div class="item grid-sizer photography print">
+					<div class="overlay">
+						<img src="images/img5.png">
+						<div class="image-content">
+							<h4>T-SHIRT DESIGN</h4>
+							<h5>art/t-shirt</h5>
+						</div>
+					</div>
+				</div>
+				<div class="item grid-sizer">
+					<div class="overlay">
+						<img src="images/img6.png">
+						<div class="image-content">
+							<h4>T-SHIRT DESIGN</h4>
+							<h5>art/t-shirt</h5>
+						</div>
+					</div>
+				</div>
+				<div class="item grid-sizer">
+					<div class="overlay">
+						<img src="images/img7.png">
+						<div class="image-content">
+							<h4>T-SHIRT DESIGN</h4>
+							<h5>art/t-shirt</h5>
+						</div>
+					</div>
+				</div>
+				<div class="item grid-sizer photography">
+					<div class="overlay">
+						<img src="images/img8.png">
+						<div class="image-content">
+							<h4>T-SHIRT DESIGN</h4>
+							<h5>art/t-shirt</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Isotops-->
+
+	<section class="case_study">
+		<div class="container c_study">
+			<div class="text-center">
+				<h2>CASE STUDY</h2>
+				<p>A brief story about how this process works, keep an eye till the end.</p>
+				<span class="line for_spacing"></span>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 ">
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						  <ol class="carousel-indicators">
+						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						  </ol>
+					  <div class="carousel-inner">
+						    <div class="carousel-item active">
+							    <div class="text-center">
+									<span  class="icon"><i class="far fa-lightbulb"></i></span>
+									<h3>ACCUMULATE CREATIVE IDEAS</h3>
+									<hr>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry Printing and typelorem Ipsum has been the setting let.</p>
+									<a class="btn crsl_btn" href="">READ MORE</a>
+								</div>
+						    </div>
+						    <div class="carousel-item">
+						      <div class="text-center">
+									<span  class="icon"><i class="far fa-lightbulb"></i></span>
+									<h3>ACCUMULATE CREATIVE IDEAS</h3>
+									<hr>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry Printing and typelorem Ipsum has been the setting let.</p>
+									<a class="btn crsl_btn" href="">READ MORE</a>
+								</div>
+						    </div>
+						    <div class="carousel-item">
+						      <div class="text-center">
+									<span  class="icon"><i class="far fa-lightbulb"></i></span>
+									<h3>ACCUMULATE CREATIVE IDEAS</h3>
+									<hr>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry Printing and typelorem Ipsum has been the setting let.</p>
+									<a class="btn crsl_btn" href="">READ MORE</a>
+								</div>
+						    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12">
+					<div class="case_study_img">
+						<img src="images/caseStudy.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/Case Study-->
+
+	<section class="counters">
+		<div class="d-flex flex-row justify-content-around d-md-flex d-sm-flex flex-wrap for_width">
+			<div class="text-center padding_bottom">
+				<div class="Counter_icons">
+					<i class="far fa-heart"></i>
+				</div>
+				<div class="counter_text">
+					<h6 class="count">381</h6>
+					<p>User Favourites</p>
+				</div>
+			</div>
+			<div class="text-center padding_bottom">
+				<div class="Counter_icons">
+					<i class="far fa-tag"></i>
+				</div>
+				<div class="counter_text">
+					<h6 class="count">281</h6>
+					<p>Posts Last 24</p>
+				</div>
+			</div>
+			<div class="text-center padding_bottom">
+				<div class="Counter_icons">
+					<i class="far fa-thumbs-up"></i>
+				</div>
+				<div class="counter_text">
+					<h6 class="count">618</h6>
+					<p>Total Posts</p>
+				</div>
+			</div>
+			<div class="text-center">
+				<div class="Counter_icons">
+					<i class="far fa-star"></i>
+				</div>
+				<div class="counter_text">
+					<h6 class="count">178</h6>
+					<p>Compaigns</p>
+				</div>
+			</div>
+			<div class="text-center">
+				<div class="Counter_icons2">
+					<i class="far fa-bookmark"></i>
+				</div>
+				<div class="counter_text">
+					<h6 class="count">285</h6>
+					<p>Amazing Features</p>
+				</div>
+			</div>
+		</div>
+	</section><!--Counters-->
+
+	<section class="pricing">
+		<div class="container for_width">
+			<div class="text-center">
+				<h2>OUR PRICING</h2>
+				<P>A 30 days free trial for all. A brief story about how this process works, keep an eye till the end.</P>
+				<span class="line for_spacing"></span>
+				<span></span>
+			</div>
+			<div class="row no-gutters text-center">
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<div class="card price_table">
+						<div class="card-header card_h">
+							<h4>STARTER</h4>
+						</div>
+						<div class="price">
+							<div class="price_inner">
+								<h5>$19</h5>
+								<h6>Per Month</h6>
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="p_cotent">
+								<p>Competition Analysis Methods</p>
+								<p>All Ranked URLs</p>
+								<p>International Support System</p>
+								<p>Social Media Tracking</p>
+								<a class="btn price_btn" href="">CHOOSE PLAN</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<div class="card price_table">
+						<div class="card-header middle_card">
+							<h4>PREMIUM</h4>
+						</div>
+						<div class="price">
+							<div class="price_inner">
+								<h5 style="color: #e74c3c;">$39</h5>
+								<h6>Per Month</h6>
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="p_cotent">
+								<p>Competition Analysis Methods</p>
+								<p>All Ranked URLs</p>
+								<p>International Support System</p>
+								<p>Social Media Tracking</p>
+								<a class="btn middle_btn" href="">CHOOSE PLAN</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<div class="card price_table">
+						<div class="card-header card_h">
+							<h4>BUSINESS</h4>
+						</div>
+						<div class="price">
+							<div class="price_inner text-center">
+								<h5>$99</h5>
+								<h6>Per Month</h6>
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="p_cotent">
+								<p>Competition Analysis Methods</p>
+								<p>All Ranked URLs</p>
+								<p>International Support System</p>
+								<p>Social Media Tracking</p>
+								<a class="btn price_btn" href="#">CHOOSE PLAN</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="partners">
+		<div class="container for_width">
+			<div class="text-center">
+				<h2>Great Integrations with Others</h2>
+				<p>Suspendisse sed eros mollis, tincidunt felis eget, interdum erat. 
+				Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu urna suscipit, dictum quam nec.</p>
+				<span class="line for_spacing"></span>
+			</div>
+		</div>
+
+		<div class="d-flex flex-row justify-content-around d-sm-flex flex-wrap for-width">
+			<div class="partner_logo">
+				<img src="images/logo1.png">
+			</div>
+			<div class="partner_logo">
+				<img src="images/logo2.png">
+			</div>
+			<div class="partner_logo">
+				<img src="images/logo3.png">
+			</div>
+			<div class="partner_logo">
+				<img src="images/logo4.png">
+			</div>
+			<div class="partner_logo">
+				<img src="images/logo1.png">
+			</div>
+			<div class="partner_logo">
+				<img src="images/logo1.png">
+			</div>
+			<div class="partner_logo">
+				<img src="images/logo1.png">
+			</div>
+			<div class="partner_logo">
+				<img src="images/logo1.png">
+			</div>
+			<div class="partner_logo">
+				<img src="images/logo1.png">
+			</div>
+			<div class="partner_logo">
+				<img src="images/logo1.png">
+			</div>
+		</div>
+	</section>
+
+	<!--horizontal Rule-->
+	<hr style="margin:0; color: #d8d9db;">
+	<!--horizontal Rule-->
+
+	<section class="blog">
+		<div>
+			<div class="text-center blog_headings">
+				<h2>OUR BLOG</h2>
+				<P>Suspendisse sed eros mollis, tincidunt felis eget, interdum eratullam sit amet odio.</P>
+				<span class="line for_spacing"></span>
+			</div>
+
+			<div class="row no-gutters">
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="blog_img">
+						<img src="images/blog1.png">
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="table">
+						<div class="table-cell blog_content before">
+							<h6>art/t-shirt</h6>
+							<h3>T-SHIRT DESIGN</h3>
+							<hr>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+							<a href="#">Read More >></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="blog_img">
+						<img src="images/blog2.png">
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="table">
+						<div class="table-cell blog_content before">
+							<h6>art/t-shirt</h6>
+							<h3>T-SHIRT DESIGN</h3>
+							<hr>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+							<a href="#">Read More >></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Second row-->
+			
+			<div class="row no-gutters">
+				<div class="col-lg-3 col-md-6 col-sm-6 order-md-1 order-sm-2 order-2">
+					<div class="table">
+						<div class="table-cell blog_content after">
+							<h6>art/t-shirt</h6>
+							<h3>T-SHIRT DESIGN</h3>
+							<hr>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+							<a href="#">Read More >></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 order-md-2">
+					<div class="blog_img">
+						<img src="images/blog3.png">
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="table">
+						<div class="table-cell blog_content after">
+							<h6>art/t-shirt</h6>
+							<h3>T-SHIRT DESIGN</h3>
+							<hr>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a galley of type a scrambled it to make a type specimen book.</p>
+							<a href="#">Read More >></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="blog_img">
+						<img src="images/blog4.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/Blog-->
+
+	<section class="keep_in_touch">
+		<div class="container for_width">
+			<div class="text-center kpt_content">
+				<h2>KEEP IN TOUCH</h2>
+				<P>Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu urna suscipit, dictum quam nec. </P>
+				<span class="line for_spacing"></span>
+			</div>
+			<div class="row no-gutters">
+				<div class="col-lg-5 col-md-5 col-sm-12">
+					<div class="address">
+						<H4>OUR ADDRESS</H4>
+						<p id="p1">House #13, Streat road, Sydney</br> 
+						2310 Australia</p></span>
+
+						<H4>CALL US</H4>
+						<p id="p2">+ 880 168 109 1425</p>
+						<p id="p3">+ 0216809142</p>
+
+						<H4>EMAIL US</H4>
+						<p id="p4">contactus@email.com</p>
+					</div>
+				</div>
+				<div class="col-lg-7 col-md-7 col-sm-12">
+					<div class="form">
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Name" id="name">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" placeholder="Email" id="email">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Subject" id="subject">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" row="10" placeholder="Message" id="Message"></textarea>
+							</div>
+							<button type="submit" class="btn form_btn">Send Message</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/Form-->
+
+	<section class="cta">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="text-center cta_text">
+						<h2>Let's Get Started Now. <span style="font-weight:600">It's FREE!</span></h2>
+						<p>30 day free trial. Free plan allows up to 2 projects. Pay if you need more. Cancel anytime. No catches.</p>
+						<a class="btn cta_btn" href="#">START FREE TRIAL</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/CTA-->
+
+	<footer class="footer">
+		<div class="container footer_content for_width">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="Soc_icons">
+						<span class="social_icon"><i class="fab fa-facebook-f"></i></span>
+						<span class="social_icon"><i class="fab fa-twitter"></i></span>
+						<span class="social_icon"><i class="fas fa-rss"></i></span>
+						<span class="social_icon"><i class="fab fa-google-plus-g"></i></span>
+						<span class="social_icon"><i class="fab fa-linkedin-in"></i></span>
+						<span class="social_icon"><i class="fab fa-skype"></i></span>
+						<span class="social_icon"><i class="fab fa-vimeo-v"></i></span>
+						<span class="social_icon"><i class="fab fa-tumblr"></i></span>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="text-right cw_text">
+						<p>Kazi Erfan © All Rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	
+
+	<script src="jquery.waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+
+	<script>
+		$(function() {
+		  var $grid = $('#grid').isotope({
+		  	layoutMode: 'fitRows',
+		    itemSelector: '.item',
+		 //    masonry: {
+			//   columnWidth: '.grid-sizer',
+			//   percentPosition: true,
+			//   gutter: 0
+			// }
+		  });
+		  
+		  
+		  var $buttons = $('#filter-menu button');
+		  $buttons.on('click', function() {
+		    var $this = $(this);
+		    $buttons.removeClass('active');
+		    $this.addClass('active');
+		    var $f = $this.val();
+		    $grid.isotope({
+		      filter: $f
+		    });
+		  });
+
+		});
+
+		jQuery("document").ready(function($) {
+			$('#filter-menu button[value=all]').click();
+
+			// 
+			// Select all links with hashes
+			$('a[href*="#"]')
+			  // Remove links that don't actually link to anything
+			  .not('[href="#"]')
+			  .not('[href="#0"]')
+			  .click(function(event) {
+			    // On-page links
+			    if (
+			      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+			      && 
+			      location.hostname == this.hostname
+			    ) {
+			      // Figure out element to scroll to
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			      // Does a scroll target exist?
+			      if (target.length) {
+			        // Only prevent default if animation is actually gonna happen
+			        event.preventDefault();
+			        $('html, body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000, function() {
+			          // Callback after animation
+			          // Must change focus!
+			          var $target = $(target);
+			          $target.focus();
+			          if ($target.is(":focus")) { // Checking if the target was focused
+			            return false;
+			          } else {
+			            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+			            $target.focus(); // Set focus again
+			          };
+			        });
+			      }
+			    }
+			  });
+		});
+	</script>
+
+<ul class="Step">
+	<li>
+		<span class="circle">1</span>
+		<h3>Register</h3>
+	</li>
+	<li>
+		<span class="circle">2</span>
+		<h3>Start 3 Days Trial Class</h3>
+	</li>
+	<li>
+		<span class="circle">3</span>
+		<h3>Enroll in Full Course</h3>
+	</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>	
+</html>
